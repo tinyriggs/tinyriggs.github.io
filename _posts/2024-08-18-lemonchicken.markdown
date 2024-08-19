@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lemon Pepper Chicken"
-date:   2024-08-18 19:30:00 -0500
+date:   2024-08-18 01:30:00 -0500
 categories: recipe
 ---
 
