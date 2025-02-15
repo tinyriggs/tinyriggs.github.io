@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>TEST</title>
+</head>
+<body>
+    <p id="That's Blank as Blank"></p>
+    <script>
+        let swears = [`Fuck`, `Shit`, `Ass`, `Crap`, `Damn`, `God Damn`, `Hell`];
+        let great_synonoms = [`Amazing`, `Great`, `Dope`, `Awesome`, `Cool`, `Excellent`, `Fabulous`, `Fantastic`, `Terrific`];
+        //alert(swears[Math.floor(Math.random() * swears.length)]);
+        
+        function randomElementFromArray(source){
+            return source[Math.floor(Math.random() * source.length)];
+        }
+        
+        document.getElementById("That's Blank as Blank").innerHTML = `That's ${randomElementFromArray(great_synonoms)} as ${randomElementFromArray(swears)}`;
+        
+        
+    </script>
+</body>
+</html>
